@@ -1,23 +1,32 @@
 <!doctype html>
 <html>
-<head> 
+<head>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<<style>
+    <style>
         body {
-          background-image: url('2broertjes.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
+            background-image: url('2broertjes.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
         }
- </style>
+        iframe,
+        video {
+            display: block;
+            margin: 1em auto;
+            width: 40%;
+            height: calc(.5625 * 40vw);
+        }
+            
+    </style>
+
 </head>
 
 <nav>
   <a href="page1.html" target="_self">HOME</a>
   <a href="page2.html" target="_self">ABOUT</a>
-	<a href="page3.html" target="_self">OCCASIES</a>
+	<a href="page3.html" target="_self">2DEHANDSKLEDIJ</a>
 	<a href="page4.html" target="_self">CONTACT</a>
 	<a href="page5.html" target="_self">SPECIFICATIES</a>
   <div class="animation start-HOME"></div>
@@ -26,12 +35,22 @@
 
 <body>
 
-    <video id="contentframe" style="position:relative; top: 30px; left: 600px;"
-           width="700" height="305" controls>
+    <video controls>
         <source src="Mattéo.mov" type="video/mp4">
-        <source src="Mattéo.mov" type="video/ogg">
     </video>
+    <video controls>
+        <source src="Mattéo.mov" type="video/mp4">
+    </video>
+    <video controls>
+        <source src="Mattéo.mov" type="video/mp4">
+    </video>
+    <video controls>
+        <source src="Mattéo.mov" type="video/mp4">
+    </video>
+
+
 </body>
 
 </html>
+
 
