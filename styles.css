@@ -1,10 +1,10 @@
 nav {
     margin: 27px auto 0;
     position: relative;
-    width: 800px;
+    width: 600px;
     height: 50px;
     background-color: #34495e;
-    border-radius: 8px;
+    border-radius: 15px;
     font-size: 0;
 }
 
@@ -28,7 +28,7 @@ nav {
         top: 0;
         z-index: 0;
         transition: all .5s ease 0s;
-        border-radius: 8px;
+        border-radius: 15px;
     }
 
 a:nth-child(1) {
