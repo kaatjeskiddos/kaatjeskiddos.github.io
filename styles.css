@@ -51,31 +51,31 @@ a:nth-child(5) {
     width: 125px;
 }
 
-nav .start-home, a:nth-child(1):hover ~ .animation {
+nav .start-HOME, a:nth-child(1):hover ~ .animation {
     width: 100px;
     left: 0;
     background-color: #1abc9c;
 }
 
-nav .start-about, a:nth-child(2):hover ~ .animation {
+nav .start-ABOUT, a:nth-child(2):hover ~ .animation {
     width: 110px;
     left: 100px;
     background-color: #e74c3c;
 }
 
-nav .start-2dehandskledij, a:nth-child(3):hover ~ .animation {
+nav .start-2DEHANDSKLEDIJ, a:nth-child(3):hover ~ .animation {
     width: 180px;
     left: 210px;
     background-color: #3498db;
 }
 
-nav .start-contact, a:nth-child(4):hover ~ .animation {
+nav .start-CONTACT, a:nth-child(4):hover ~ .animation {
     width: 110px;
     left: 390px;
     background-color: #9b59b6;
 }
 
-nav .start-specificaties, a:nth-child(5):hover ~ .animation {
+nav .start-sPECIFICATIES, a:nth-child(5):hover ~ .animation {
     width: 125px;
     left: 460px;
     background-color: #e67e22;
